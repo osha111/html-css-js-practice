@@ -6,4 +6,86 @@
 body{
     background-color: black;
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  
+}
+
+header{
+    background-color: #111;
+    padding:15px 0;;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}  
+
+header ul li {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header ul li:hover{
+    color: #00ffcc;
+}
+
+section {
+    background-color: #1a1a1a;
+    color:white;
+    margin: 30px auto;
+    padding: 60px 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+}  
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;;
+}
+
+.title{
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+footer {
+    text-align:center;
+    padding: 30px 10px;
+    background-color: #111;
+    color: #eee;
+    font-size: 14px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
+
+footer a {
+    color: #0af;
+    text-decoration: none;
+    margin: 0 8px;
+
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #09f;
+}
+
+h2 {
+    font-size: 28px;
+    color: #0af;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
 }
