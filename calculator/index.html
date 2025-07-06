@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osha's Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="calculator">
+    <h2>Osha's Calculator</h2>
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+        <button onclick="updateDisplay('7')">7</button>
+        <button onclick="updateDisplay('8')">8</button>
+        <button onclick="updateDisplay('9')">9</button>
+        <button onclick="updateDisplay('/')">/</button>
+
+        <button onclick="updateDisplay('4')">4</button>
+        <button onclick="updateDisplay('5')">5</button>
+        <button onclick="updateDisplay('6')">6</button>
+        <button onclick="updateDisplay('*')">*</button>
+
+        <button onclick="updateDisplay('1')">1</button>
+        <button onclick="updateDisplay('2')">2</button>
+        <button onclick="updateDisplay('3')">3</button>
+        <button onclick="updateDisplay('-')">-</button>
+
+        <button onclick="updateDisplay('0')">0</button>
+        <button onclick="updateDisplay('.')">.</button>
+        <button onclick="evaluateExpression()">=</button>
+        <button onclick="updateDisplay('+')">+</button>
+
+        <button onclick="clearDisplay()">C</button>
+    </div>
+
+ </div> 
+  <script src="script.js"></script>   
+</body>
+</html>
