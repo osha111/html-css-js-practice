@@ -28,7 +28,8 @@ header ul li {
     color: white;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+   transition: color 0.3s;
+
 }
 
 header ul li:hover{
@@ -42,7 +43,7 @@ section {
     padding: 60px 20px;
     border-radius: 10px;
     max-width: 800px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }  
 
 html{
@@ -52,7 +53,7 @@ html{
 
 .hero {
     text-align: center;
-    padding: 60px 20px;;
+    padding: 60px 20px;
 }
 
 .title{
